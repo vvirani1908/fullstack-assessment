@@ -56,8 +56,8 @@ Clicking Clear Filters reset some state values but the dropdowns still showed th
 Re-selecting the same category afterward did not trigger a re-render or update.
 
 **Fix:**
-Introduced a filterResetKey that forces controlled <Select> components to remount when filters are cleared.
-Also used router.replace("/") to remove stale query parameters from the URL.
+Introduced a filterResetKey that forces controlled `<Select>` components to remount when filters are cleared.
+Also used `router.replace("/")` to remove stale query parameters from the URL.
 
 **Why This Approach:**
 - key property forces a new component render, fully resetting dropdowns.
