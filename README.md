@@ -35,6 +35,7 @@ We recommend spending no more than 2 hours on this assignment. We are more inter
 - Provide your Stackline contact with a link to a git repository where you have committed your changes
 
 We're looking for clear communication about your problem-solving process as much as the technical fixes themselves.
+<<<<<<< HEAD
 
 ## My Changes
 ### 1. **Search Function Was Too Strict**
@@ -129,3 +130,5 @@ Configured the external domains in next.config.ts to explicitly allow Amazon ima
 - Allows images to load from trusted Amazon domains without errors.
 - Ensures consistent product rendering across all environments.
 - Keeps Next.js’s image optimization intact while extending external sources.
+=======
+>>>>>>> 059c680e5c7190d5e668660c269bea070bb7ad6c

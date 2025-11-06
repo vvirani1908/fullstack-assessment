@@ -53,7 +53,6 @@ export default function ProductPage() {
   }, [productParam]);
 
   if (!product) {
-    console.log('Current filters - search:', search, 'category:', category, 'subCategory:', subCategory);
     return (
       <div className="min-h-screen bg-background">
         <div className="container mx-auto px-4 py-8">
